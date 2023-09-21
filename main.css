@@ -1,0 +1,159 @@
+/* Основное */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Шапка */
+header {
+  background-color: #f2f2f2;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Логотип */
+.logo {
+  font-size: 24px;
+  height: 70px;
+}
+
+/* Поиск */
+.search input {
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* Телефон */
+.phone-number {
+  font-size: 18px;
+  color: #39a5f1;
+}
+
+/* Меню */
+nav {
+  background-color: #39a5f1; 
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Шапка (обложка) */
+.cover {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 40px;
+  text-align: center;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.cover h1 {
+  font-size: 36px;
+  color: #39a5f1;
+}
+
+.cover p {
+  font-size: 18px;
+}
+
+/* Категории */
+.categories-news {
+  display: flex;
+  justify-content: center;
+}
+
+.categories {
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 25%;
+  padding: 20px;
+}
+
+.category {
+  margin-bottom: 20px;
+}
+
+.category h2 {
+  font-size: 24px;
+  color: #39a5f1;
+}
+
+.category p {
+  font-size: 18px;
+  color: #333;
+}
+
+/* Контент (новости) */
+.content {
+  width: 100%;
+  padding: 20px;
+  float: left;
+}
+
+/* Подвал */
+footer {
+  background-color: #39a5f1;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Карточки новостей */
+.news-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
+  float: left;
+}
+
+.news-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.news-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.news-description {
+  font-size: 14px;
+  color: #555;
+}
+
+.read-more-link {
+  text-decoration: none;
+  color: #39a5f1;
+  font-weight: bold;
+}
+
+.read-more-link:hover {
+  text-decoration: underline;
+}
